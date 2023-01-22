@@ -1,0 +1,14 @@
+.container{
+    .socials{
+        margin-top: 1rem;
+        scale: 2;
+        display: flex;
+        gap: 1rem;
+        transition: all 1s ease;
+        &>*{
+            &:hover{
+                scale: 1.05;
+            }
+        }
+    }
+}
