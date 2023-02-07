@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {AiOutlineMenu} from 'react-icons/ai'
 import {TiWeatherPartlySunny} from 'react-icons/ti'
 import {IoChevronForwardCircleSharp} from 'react-icons/io5'

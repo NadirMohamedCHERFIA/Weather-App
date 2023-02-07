@@ -160,10 +160,8 @@ const Card = () => {
     plugins: {
     legend: {
         position: 'top',
-        // size: window.innerWidth > 350 ? 50 : 10,
         labels:{
         font:{
-            // size:'1rem',
             size: window.innerWidth > 600 ? 24 : 10,
 
         }
@@ -173,7 +171,6 @@ const Card = () => {
         display: true,
         text: 'Weather Forcast',
         font:{
-            // size:'100rem',
             size: window.innerWidth > 400 ? 24 : 8,
             fontColor:'white'
         }
@@ -374,15 +371,11 @@ const Card = () => {
                     )}
                 </select>
             </div>
-            {/* <canvas> */}
             <div className="line">
                 <Line options={options} data={data} 
-                // height={window.innerWidth<=400 ? '{"100%"}' : ""}
                 height={"100%"}
-                // height={200} 
                 />
             </div>
-            {/* </canvas> */}
         </div>
     </div>
 }
